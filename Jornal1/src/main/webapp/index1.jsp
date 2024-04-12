@@ -7,8 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.84.0">
-    <title>Jornal República
-	</title>
+    <title>Jornal República</title>
 
     <link rel="canonical"  href="https://getbootstrap.com/docs/5.0/examples/carousel/">
 	<!-- CSS apenas -->
@@ -46,7 +45,14 @@
       <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">ETER</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <button  
+            class="navbar-toggler" 
+            type="button" 
+            data-bs-toggle="collapse" 
+            data-bs-target="#navbarCollapse" 
+            aria-controls="navbarCollapse" 
+            aria-expanded="false" 
+            aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -130,7 +136,13 @@
         <!-- três colunas abaixo do conteúdo do carrossel -->
         <div class="row">
           <div class="col-lg-4">
-            <img src="img/DiaM.png" class="bd-placeholder-img rounded-circle" width="140" height="140" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <img 
+              src="img/DiaM.png" 
+              class="bd-placeholder-img rounded-circle" 
+              width="140" height="140" role="img" 
+              aria-label="Placeholder: 140x140" 
+              preserveAspectRatio="xMidYMid slice" 
+              focusable="false">
                 
 
                 <h2>Dia da Igualdade Feminina</h2>
@@ -139,7 +151,13 @@
               
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4">
-            <img src="img/DiaF.png" class="bd-placeholder-img rounded-circle" width="140" height="140" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <img 
+              src="img/DiaF.png" 
+              class="bd-placeholder-img rounded-circle" 
+              width="140" height="140" role="img" 
+              aria-label="Placeholder: 140x140" 
+              preserveAspectRatio="xMidYMid slice" 
+              focusable="false">
 
                 <h2>Dia do Folclore</h2>
                 <p>Como nós sabemos, o folclore brasileiro é um dos mais ricos do mundo. Sendo assim, precisa ser aclamado por todos.
@@ -147,7 +165,13 @@
                 
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4">
-            <img src="img/DiaE.png" class="bd-placeholder-img rounded-circle" width="140" height="140" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <img 
+              src="img/DiaE.png" 
+              class="bd-placeholder-img rounded-circle" 
+              width="140" height="140" role="img" 
+              aria-label="Placeholder: 140x140" 
+              preserveAspectRatio="xMidYMid slice" 
+              focusable="false">
 
                 <h2>Dia Nacional do Escritor</h2>
                 <p>Feliz dia nacional do escritor! Aqui estão algumas indicações e um texto especial de Ludmylla Vitória. 
@@ -168,7 +192,13 @@
           </div>
           <div class="col-md-5">
           <a href="https://www.instagram.com/p/Cf9BGszrFCw/">
-            <img src="img/Rock.png" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title>
+            <img src="img/Rock.png" 
+              class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" 
+              width="500" height="500" role="img" 
+              aria-label="Placeholder: 500x500" 
+              preserveAspectRatio="xMidYMid slice" 
+              focusable="false">
+              <title>Placeholder</title>
           </a>
           </div>
         </div>
@@ -182,7 +212,13 @@
           </div>
           <div class="col-md-5 order-md-1">
             <a href="https://www.instagram.com/p/CfXkNSHJDsr/">
-              <img src="img/Orgulho.png" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title>
+              <img src="img/Orgulho.png" 
+                class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" 
+                width="500" height="500" role="img" 
+                aria-label="Placeholder: 500x500" 
+                preserveAspectRatio="xMidYMid slice" 
+                focusable="false"> 
+                <title>Placeholder</title>
             </a>
           </div>
         </div>
@@ -197,7 +233,13 @@
           <div class="col-md-5" >
 
         <a href="https://www.instagram.com/p/CevtALer2Q9/">
-          <img src="img/Namorado.png"  class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false" ><title>Placeholder</title>
+          <img src="img/Namorado.png"  
+            class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" 
+            width="500" height="500" role="img" 
+            aria-label="Placeholder: 500x500" 
+            preserveAspectRatio="xMidYMid slice" 
+            focusable="false" >
+            <title>Placeholder</title>
         </a>
 
           </div>
@@ -218,9 +260,17 @@
 
   <!-- JavaScript Conjunto -->
 
-    <script src="js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script 
+      src="js/bootstrap.bundle.min.js" 
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" 
+      crossorigin="anonymous">
+    </script>
 	
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script 
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" 
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" 
+      crossorigin="anonymous">
+    </script>
 
       
   </body>
