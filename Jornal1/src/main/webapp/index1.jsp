@@ -1,0 +1,227 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.84.0">
+    <title>Jornal República
+	</title>
+
+    <link rel="canonical"  href="https://getbootstrap.com/docs/5.0/examples/carousel/">
+	<!-- CSS apenas -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/navbar.css">
+
+    
+
+    <!-- Bootstrap fundamental para CSS -->
+	<link href="css/index/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+    <!-- estilos customizados  -->
+    <link href="css/carousel.css" rel="stylesheet">
+  </head>
+  <body>
+    
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">ETER</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index1.jsp">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="TelaSobre.jsp">Sobre</a>
+              </li>
+          <li class="nav-item">
+                <a class="nav-link" href="https://www.instagram.com/avoz_republica/">Edições Antigas</a>
+              </li>
+          <li class="nav-item">
+                <a class="nav-link" href="TelaLogin.jsp">Login</a>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+
+      <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+        <img src="img/WeWant.png" class="bd-placeholder-img" alt="">
+            <!-- <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg> -->
+
+            <div class="container">
+              <div class="carousel-caption text-start">
+                <h1>WE WANT YOU</h1>
+                <p>Nós, do A Voz do República, ficamos felizes em dizer que estaremos abrindo vagas para novos membros!! Para se candidatar, é só ir para o form que está em nossa bio.</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+        <img src="img/Desenhos.png" class="bd-placeholder-img" alt="">
+
+            <div class="container">
+              <div class="carousel-caption">
+                <h1>Concurso de Desenho!</h1>
+                <p>Para realizar a inscrição, vocês devem postar o desenho que vocês querem competir (podendo ser digital ou tradicional), marcando o nosso instagram.</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+        <img src="img/DiaP.png" class="bd-placeholder-img" alt="">
+
+            <div class="container">
+              <div class="carousel-caption text-end">
+                <h1>Dia dos Pais</h1>
+                <p>Pai é aquele que está presente na vida de seu filho!!
+            Feliz dia dos pais!!
+          </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!-- segunda parte da composição do site -->
+
+      <div class="container marketing">
+
+        <!-- três colunas abaixo do conteúdo do carrossel -->
+        <div class="row">
+          <div class="col-lg-4">
+            <img src="img/DiaM.png" class="bd-placeholder-img rounded-circle" width="140" height="140" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+                
+
+                <h2>Dia da Igualdade Feminina</h2>
+                <p>Ontem, 26 de agosto, foi o Dia da Igualdade Feminina.
+              Um dia histórico e extremamente importante para todas as mulheres!</p>
+              
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img src="img/DiaF.png" class="bd-placeholder-img rounded-circle" width="140" height="140" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+
+                <h2>Dia do Folclore</h2>
+                <p>Como nós sabemos, o folclore brasileiro é um dos mais ricos do mundo. Sendo assim, precisa ser aclamado por todos.
+              Feliz Dia do Folclore! </p>
+                
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img src="img/DiaE.png" class="bd-placeholder-img rounded-circle" width="140" height="140" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+
+                <h2>Dia Nacional do Escritor</h2>
+                <p>Feliz dia nacional do escritor! Aqui estão algumas indicações e um texto especial de Ludmylla Vitória. 
+              Nós apreciamos todos os escritores, seja aquele que já é publicado, ou aquele que escreve apenas para si. Um enorme abraço a todos!💜</p>
+            
+          </div><!-- /.col-lg-4 -->
+        </div><!-- /.row -->
+
+
+        <!-- Começo das featurettes -->
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">Dia do <span class="text-muted">Rock</span></h2>
+            <p class="lead">Dia 13 de julho, é comemorado o Dia Mundial do Rock. Um gênero musical que sempre arrastou multidões, influenciando o estilo de vida de milhares de pessoas ao redor do mundo. Feliz dia do Rock para todxs!!</p>
+          </div>
+          <div class="col-md-5">
+          <a href="https://www.instagram.com/p/Cf9BGszrFCw/">
+            <img src="img/Rock.png" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title>
+          </a>
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading">Orgulho <span class="text-muted">LGBTQIAP+</span></h2>
+            <p class="lead">Dia 28 de junho, é celebrado o Dia do Orgulho LGBTQIAP+. Nós, do Jornal A Voz do República, desejamos que todxs tenham liberdade para ser quem são!</p>
+          </div>
+          <div class="col-md-5 order-md-1">
+            <a href="https://www.instagram.com/p/CfXkNSHJDsr/">
+              <img src="img/Orgulho.png" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title>
+            </a>
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">Curiosidade <span class="text-muted">Dia dos Namorados</span></h2>
+            <p class="lead">Separei para vocês 8 curiosidades legais sobre o dia dos namorados. Espero que gostem.</p>
+          </div>
+          <div class="col-md-5" >
+
+        <a href="https://www.instagram.com/p/CevtALer2Q9/">
+          <img src="img/Namorado.png"  class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false" ><title>Placeholder</title>
+        </a>
+
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <!-- /fim das featurettes -->
+
+      </div><!-- /.container -->
+
+
+      <!-- FOOTER -->
+      <footer class="container">
+        <p class="float-end"><a href="#">Voltar Para o Topo</a></p>
+      </footer>
+    </main>
+
+  <!-- JavaScript Conjunto -->
+
+    <script src="js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+	
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+      
+  </body>
+</html>

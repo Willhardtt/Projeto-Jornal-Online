@@ -1,0 +1,18 @@
+.shadow-textarea textarea.form-control::placeholder {
+    font-weight: 300;
+}
+.shadow-textarea textarea.form-control {
+   
+   position: absolute; 
+	left: 10px; /* posiciona a 90px para a esquerda */ 
+	top: 70px; /* posiciona a 70px para baixo */
+	
+}
+
+.custom-checkbox{
+	position:absolute;
+		right:40%;
+		top:20%;
+		margin-right:440px;
+		margin-top:1px;
+}
