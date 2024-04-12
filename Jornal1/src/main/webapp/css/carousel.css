@@ -33,6 +33,9 @@ body {
   min-width: 100%;
   height: 32rem;
 }
+.carousel-caption{
+  text-shadow: 10px 2px 12px #000000;
+}
 
 
 /* MARKETING CONTENT
